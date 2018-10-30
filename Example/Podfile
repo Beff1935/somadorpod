@@ -1,0 +1,6 @@
+use_frameworks!
+target 'somadorpod_Tests' do
+  pod 'somadorpod', :path => '../'
+  
+  
+end
