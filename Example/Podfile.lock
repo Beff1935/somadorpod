@@ -1,0 +1,16 @@
+PODS:
+  - somadorpod (0.1.0)
+
+DEPENDENCIES:
+  - somadorpod (from `../`)
+
+EXTERNAL SOURCES:
+  somadorpod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  somadorpod: e87dbe19c70243ca6bf2f489e69c03271f95e4e7
+
+PODFILE CHECKSUM: ebffb3f6043bf8fe8af7f136d0bf3bba6e4e4fdd
+
+COCOAPODS: 1.5.3

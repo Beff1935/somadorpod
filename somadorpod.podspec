@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'somadorpod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of somadorpod.'
+  s.summary          = 'Este é o super somador. Ele vai somando sem parar até que o inteiro nao aguente mais.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Este e o super somador. Com ele voce vai somar muitos numeros ate o inteiro nao aguentar mais. Eu so queria mesmo era publicar esse POD. Infelizmente sou obrigado a escrever esse texto de fb aqui porque senao o lint nao deixa eu prosseguir.
                        DESC
 
-  s.homepage         = 'https://github.com/MKP/somadorpod'
+  s.homepage         = 'https://uol.com.br'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MKP' => 'beff1935@einrot.com' }
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.swift_version = '4'
 end

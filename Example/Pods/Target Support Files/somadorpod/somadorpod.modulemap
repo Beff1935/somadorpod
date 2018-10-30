@@ -1,0 +1,6 @@
+framework module somadorpod {
+  umbrella header "somadorpod-umbrella.h"
+
+  export *
+  module * { export * }
+}
