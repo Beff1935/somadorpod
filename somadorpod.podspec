@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'somadorpod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Este é o super somador. Ele vai somando sem parar até que o inteiro nao aguente mais.'
 
 # This description is used to generate tags and improve search results.

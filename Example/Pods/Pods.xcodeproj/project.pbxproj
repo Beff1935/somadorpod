@@ -10,7 +10,7 @@
 		08AEA5F30EB54A5B69DF36F3A50B37B4 /* Pods-somadorpod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A23B95E84606840F6FD93459B256CC8C /* Pods-somadorpod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41A233EB1A5FF55010BAB4913381EA97 /* somadorpod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B066D7F836BCCE047E56AF263928205A /* somadorpod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EE4813B88B8A7760F6AB6D505705E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		697BDD1C2188EC1200835108 /* Somador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BDD1B2188EC1200835108 /* Somador.swift */; };
+		69132F762189D05300E86AC3 /* Somador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69132F752189D05300E86AC3 /* Somador.swift */; };
 		7528C73B9650302AFE607A21160965CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		C44F752AD4736E002791A044FF9F6510 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216094C5C8CE343A3AD9692369884897 /* ReplaceMe.swift */; };
 		C5C90AFF9D8B20FDB394DBD4F3539CAC /* Pods-somadorpod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58091BA9BEFAA7448606DC713C9EB7 /* Pods-somadorpod_Tests-dummy.m */; };
@@ -38,7 +38,7 @@
 		54B31EEA7AB8F886245754BD03AB6898 /* Pods-somadorpod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-somadorpod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		58E3D448AEFF83A9351391A8C7C54551 /* somadorpod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = somadorpod.xcconfig; sourceTree = "<group>"; };
 		68FC1C3512FE673C62A40450655DA67F /* somadorpod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "somadorpod-dummy.m"; sourceTree = "<group>"; };
-		697BDD1B2188EC1200835108 /* Somador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Somador.swift; sourceTree = "<group>"; };
+		69132F752189D05300E86AC3 /* Somador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Somador.swift; path = somadorpod/Classes/Somador.swift; sourceTree = "<group>"; };
 		78D28130F5C53C3B25282287396A14DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B58091BA9BEFAA7448606DC713C9EB7 /* Pods-somadorpod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-somadorpod_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		40811FACAA3E1543104431FD032832B2 /* somadorpod */ = {
 			isa = PBXGroup;
 			children = (
-				697BDD1B2188EC1200835108 /* Somador.swift */,
+				69132F752189D05300E86AC3 /* Somador.swift */,
 				216094C5C8CE343A3AD9692369884897 /* ReplaceMe.swift */,
 				3BD0486888944A68981BE1444E9D977F /* Pod */,
 				80A3D6F3BB142226E15CB4571BEF02FF /* Support Files */,
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C90AFF9D8B20FDB394DBD4F3539CAC /* Pods-somadorpod_Tests-dummy.m in Sources */,
-				697BDD1C2188EC1200835108 /* Somador.swift in Sources */,
+				69132F762189D05300E86AC3 /* Somador.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
