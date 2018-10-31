@@ -25,7 +25,7 @@ Este e o super somador. Com ele voce vai somar muitos numeros ate o inteiro nao 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MKP' => 'beff1935@einrot.com' }
-  s.source           = { :git => 'https://github.com/MKP/somadorpod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Beff1935/somadorpod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
